@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1016657597219",
+    "firebase_url": "https://booking-stats-143f7-default-rtdb.firebaseio.com",
+    "project_id": "booking-stats-143f7",
+    "storage_bucket": "booking-stats-143f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016657597219:android:3ad298824c2b7cbe5a7296",
+        "android_client_info": {
+          "package_name": "com.anStudios.bookingstats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016657597219-jgu9htgu2sk3auhb6fsfckg0siiojmrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk4IjSnw8dEknIZCc-m2nB1VFXjggAJMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1016657597219-jgu9htgu2sk3auhb6fsfckg0siiojmrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
