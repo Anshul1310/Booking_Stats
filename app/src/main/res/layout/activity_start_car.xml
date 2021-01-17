@@ -8,7 +8,7 @@
     tools:context=".StartCarActivity">
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/booking_start_now"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="#2196F3"
@@ -23,7 +23,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/localediimagebtn"
+        android:id="@+id/bookingeditimage_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -31,10 +31,10 @@
         android:text="Edit Image"
         android:textColor="#6A5E5E"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@+id/circleImageView"
+        app:layout_constraintEnd_toEndOf="@+id/booking_cutomer_photo"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/circleImageView"
-        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+        app:layout_constraintStart_toStartOf="@+id/booking_cutomer_photo"
+        app:layout_constraintTop_toBottomOf="@+id/booking_cutomer_photo" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
@@ -52,7 +52,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/circleImageView"
+        android:id="@+id/booking_cutomer_photo"
         android:layout_width="100dp"
 
         android:layout_height="100dp"
@@ -67,20 +67,21 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/booking_start_now"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/localediimagebtn">
+        app:layout_constraintTop_toBottomOf="@+id/bookingeditimage_btn">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
             android:orientation="vertical"
             android:weightSum="4">
 
             <EditText
-                android:id="@+id/editTextTextPersonName4"
+                android:id="@+id/booking_customer_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -99,7 +100,7 @@
                 android:paddingLeft="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName3"
+                android:id="@+id/booking_price_charged"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -118,7 +119,7 @@
                 android:paddingLeft="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/booking_from"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
@@ -137,16 +138,17 @@
                 android:paddingLeft="10dp" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/booking_to"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
                 android:layout_weight="1"
                 android:height="60dp"
-                android:background="@drawable/edittext_bg"
 
+                android:background="@drawable/edittext_bg"
                 android:drawableStart="@drawable/from_vector"
                 android:drawableLeft="@drawable/from_vector"
                 android:drawablePadding="8dp"
